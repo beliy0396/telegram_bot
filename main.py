@@ -180,3 +180,4 @@ async def info(call: types.CallbackQuery):
 
 
 executor.start_polling(dp, skip_updates=True)
+conn.close()
